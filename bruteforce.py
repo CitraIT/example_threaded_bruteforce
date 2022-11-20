@@ -24,7 +24,7 @@ MAX_THREADS = 4
 pass_found = False
 
 
-# worker thread to read a password and try it
+# worker thread to read a password at time and try it against the target website
 def worker(tid, f_handle, s):
     print(f'starting thread {tid}')
     global pass_found
