@@ -13,9 +13,9 @@ from threading import Thread, Semaphore
 import signal
 
 
-TARGET_URL = 'http://38.54.57.147/acesso.php/'
+TARGET_URL = 'http://<IP-ADDR>/acesso.php/'
 # DICT = r'C:\Users\luciano\Documents\Tools\wordlists\rockyou.txt'
-DICT = r'C:\Users\luciano\Documents\Tools\wordlists\1000000-password-seclists.txt'
+DICT = r'C:\Users\hackerman\Documents\Tools\wordlists\1000000-password-seclists.txt'
 
 # how many threads to work 'simultaneous'
 MAX_THREADS = 4
